@@ -34,7 +34,8 @@ dependencies {
 	// Lombok helper dep
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
-
+	// Hateoas
+	implementation("org.springframework.hateoas:spring-hateoas")
 	// SpringBoot test
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
