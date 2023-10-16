@@ -36,6 +36,10 @@ dependencies {
 	annotationProcessor("org.projectlombok:lombok")
 	// Hateoas
 	implementation("org.springframework.hateoas:spring-hateoas")
+	// SpringBoot Actuator
+	implementation("org.springframework.boot:spring-boot-starter-actuator")
+	// SpringBoot Hal Explorer
+	implementation("org.springframework.data:spring-data-rest-hal-explorer")
 	// SpringBoot test
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
